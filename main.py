@@ -7,3 +7,7 @@ if __name__ == "__main__":
 from utils import is_power_of_five
 
 print(is_power_of_five(125))
+
+from utils import GCD1
+
+print(GCD1(48, 18))
