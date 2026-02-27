@@ -24,3 +24,8 @@ def is_power_of_five(n):
     while n % 5 == 0:
         n //= 5
     return n == 1
+
+def GCD1(a, b):
+    while b != 0:
+        a, b = b, a % b
+    return a
